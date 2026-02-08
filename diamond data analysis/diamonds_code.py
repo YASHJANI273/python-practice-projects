@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
-df = pd.read_csv("")
+df = pd.read_csv("diamonda.csv")
 print (df)
 df.head(5)
 df.tail(5)
@@ -107,6 +107,7 @@ plt.show()
 labels = df['color'].unique()
 plt.pie(df['color'].value_counts(), labels = labels)
 plt.show()
+
 
 
 
